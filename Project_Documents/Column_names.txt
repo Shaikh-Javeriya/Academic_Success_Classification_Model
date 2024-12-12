@@ -1,0 +1,18 @@
+id, Marital status, Application mode, Application order, Course, Daytime/evening attendance, Previous qualification, Previous qualification (grade), Nacionality, Mother's qualification, Father's qualification, Mother's occupation, Father's occupation, Admission grade, Displaced, Educational special needs, Debtor, Tuition fees up to date, Gender, Scholarship holder, Age at enrollment, International, Curricular units 1st sem (credited), Curricular units 1st sem (enrolled), Curricular units 1st sem (evaluations), Curricular units 1st sem (approved), Curricular units 1st sem (grade), Curricular units 1st sem (without evaluations), Curricular units 2nd sem (credited), Curricular units 2nd sem (enrolled), Curricular units 2nd sem (evaluations), Curricular units 2nd sem (approved), Curricular units 2nd sem (grade), Curricular units 2nd sem (without evaluations), Unemployment rate, Inflation rate, GDP, Target
+
+
+# Example data for demonstration different color_maps for visualization
+data = np.random.rand(10, 10)
+
+# List of color maps to test
+color_maps = ['viridis', 'plasma', 'coolwarm', 'RdBu', 'cividis']
+
+# Generate subplots for each cmap
+plt.figure(figsize=(15, 10))
+for i, cmap in enumerate(color_maps, 1):
+    plt.subplot(2, 3, i)
+    sns.heatmap(data, cmap=cmap, annot=False)
+    plt.title(cmap, fontsize=14)
+
+plt.tight_layout()
+plt.show()
