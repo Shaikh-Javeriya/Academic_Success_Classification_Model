@@ -125,8 +125,8 @@ Feel free to explore the repository, and contributions are welcome to enhance th
 
 ## **Author**
 **Javeriya Shaikh**
-- linkedin: [Your Kaggle Profile](https://kaggle.com/yourprofile)
-- GitHub: [Your GitHub Profile](https://github.com/your_username)
+- linkedin: [www.linkedin.com/in/javeriya-shaikh-57869a231]
+- GitHub: [https://github.com/Shaikh-Javeriya]
 
 For any questions or suggestions, feel free to reach out!
 
